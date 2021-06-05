@@ -3,6 +3,13 @@
 ---
 
 @charset "utf-8";
-
+a { text-decoration: none; }
+$link-color: black !default;
+.list__item {
+   a:hover {
+     text-decoration: underline;
+   }
+   margin-bottom: 30px;
+}
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
