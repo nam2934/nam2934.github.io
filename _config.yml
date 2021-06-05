@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "CodeBlack"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/IMG_1981.jpeg"
   bio              : "Thank You"
   #location         : "Somewhere"
   email            :
@@ -252,4 +252,4 @@ defaults:
       read_time: true
       comments: true
       share: false
-      related: true
+      related: false
