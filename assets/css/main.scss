@@ -3,7 +3,68 @@
 ---
 
 @charset "utf-8";
+@font-face {
+  font-family: 'RIDIBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SunBatang-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HANBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/HANBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Iropke Batang';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot);
+  src: url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot?#iefix) format(’embedded-opentype’),
+  url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.woff) format(‘woff’),
+  url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.ttf) format(‘truetype’);
+}
 a { text-decoration: none; }
+a:hover { text-decoration: none !important;}  
+
+.page__content {
+  font-family: 'Iropke Batang';
+  font-size: 90%;
+  line-height: 180%;
+}
+
+.item-category {
+  background-color: #e7e9ea;
+}
+
+.nav_hover:hover {
+  background-color: #8cc140 !important;
+}
+
+.cool_link {
+  display: inline-block;
+}
+
+.cool_link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  background: #a9d171;
+  transition: width .5s;
+  margin-top: -0.3em;
+}
+
+.cool_link:hover::after {
+  width: 100%;
+}
+
 $primary-color: #a9d171 !default;
 $link-color: black !default;
 .list__item {
@@ -15,5 +76,13 @@ $link-color: black !default;
 #toggle_menu{
   display: none;
 }
+.icon_size{
+  font-size: 0.7rem;
+}
+
+.post_title_size{
+  font-size: 1.5rem;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
