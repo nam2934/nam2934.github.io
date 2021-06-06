@@ -50,6 +50,99 @@
      Post pagination navigation links
      ========================================================================== */
 
+.pagination_prev_next {
+@include clearfix();
+float: left;
+width: 100%;
+
+  /* next/previous buttons */
+  &--pager {
+    margin-top: 0em;
+    padding-top: 0em;
+    display: block;
+    padding: 1em 2em;
+    //float: left;
+    width: 100%;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: $muted-text-color;
+    border: 1px solid mix(#000, $border-color, 25%);
+    border-radius: 10px 10px 0px 0px;
+
+    .prev_next {
+      font-family: $cute;
+      color: gray;
+    }
+  }
+}
+
+      
+.pagination_prev {
+@include clearfix();
+float: left;
+width: 100%;
+
+  /* next/previous buttons */
+  &--pager {
+    margin-top: 0em;
+    padding-top: 0em;
+    display: block;
+    padding: 1em 2em;
+    //float: left;
+    width: 100%;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: $muted-text-color;
+    border: 1px solid mix(#000, $border-color, 25%);
+    border-radius: 10px 10px 0px 0px;
+
+    .prev_next {
+      font-family: $cute;
+      color: gray;
+    }
+  }
+}
+
+.pagination_next {
+  @include clearfix();
+  float: left;
+  width: 100%;
+  
+    /* next/previous buttons */
+  &--pager {
+    margin-top: 0em;
+    padding-top: 0em;
+    display: block;
+    padding: 1em 2em;
+    //float: left;
+    width: 100%;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: $muted-text-color;
+    border: 1px solid mix(#000, $border-color, 25%);
+    border-radius: 0px 0px 10px 10px;
+
+    .prev_next {
+      font-family: $cute;
+      color: gray;
+    }
+  }
+}
+
+.pagination_hover:hover{
+  background-color: black;
+  color: white;
+}
+  
 .pagination {
   @include clearfix();
   float: left;
