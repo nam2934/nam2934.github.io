@@ -29,33 +29,33 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: $header-font-family;
+  font-family: 'IBMPlexSansKR-Regular' !important;
   font-weight: bold;
 }
 
 h1 {
   margin-top: 0;
-  font-size: $h-size-1;
+  font-size: 2.5em;
 }
 
 h2 {
-  font-size: $h-size-2;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: $h-size-3;
+  font-size: 1.5em;
 }
 
 h4 {
-  font-size: $h-size-4;
+  font-size: 1.4em;
 }
 
 h5 {
-  font-size: $h-size-5;
+  font-size: 1.2em;
 }
 
 h6 {
-  font-size: $h-size-6;
+  font-size: 1.1em;
 }
 
 small,

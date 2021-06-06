@@ -4,6 +4,18 @@
 
 @charset "utf-8";
 @font-face {
+  font-family: 'EliceDigitalBaeum_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'RIDIBatang';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
   font-weight: normal;
@@ -33,9 +45,13 @@
 a { text-decoration: none; }
 a:hover { text-decoration: none !important;}  
 
+#page-title{
+  font-family: 'EliceDigitalBaeum_Bold';
+  font-size: 2em;
+}
 .page__content {
-  font-family: 'Iropke Batang';
-  font-size: 90%;
+  font-family: 'HANBatang';
+  font-size: 85%;
   line-height: 180%;
 }
 
@@ -44,7 +60,7 @@ a:hover { text-decoration: none !important;}
 }
 
 .nav_hover:hover {
-  background-color: #8cc140 !important;
+  background-color: #cfd4d6 !important;
 }
 
 .cool_link {
@@ -55,17 +71,25 @@ a:hover { text-decoration: none !important;}
   content: '';
   display: block;
   width: 0;
-  height: 4px;
-  background: #a9d171;
+  height: 0.1em;
+  background: #050e42;
   transition: width .5s;
-  margin-top: -0.3em;
+  margin-top: -0.35em;
 }
 
 .cool_link:hover::after {
   width: 100%;
 }
+//386b9b
+//59676b
+//9f844a
+//ed5269
+//a0a0a0
+//ff0000
+//5a005a
+//050e42
 
-$primary-color: #a9d171 !default;
+$primary-color: black !default;
 $link-color: black !default;
 .list__item {
    a:hover {
