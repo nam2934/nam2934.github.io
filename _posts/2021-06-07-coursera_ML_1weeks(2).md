@@ -1,5 +1,5 @@
 ---
-title:  "[2] Coursrea ML 1주차 강의노트"
+title:  "[2] Model and Cost Function"
 excerpt: ""
 
 categories:
@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
  
 date: 2021-06-07
-last_modified_at: 2021-06-07
+last_modified_at: 2021-06-09
 ---
 
-## Linear Regression with One Variable
+## Model and Cost Function
 
 ### 1. Training Set 이란?
 <br>
@@ -113,7 +113,7 @@ y = x 이기때문에 x=1,2,3일때, y=1,2,3이 되고, 이는 실제 훈련셋�
 \\(\theta_0 \neq 0\\) 이면 비용함수를 이차원 평면상에 나타낼 수 없다.<br>
 비용함수를 3차원 그래프 으로 나타내면 밑의 그림과 같다.<br><br>
 <img width="531" alt="7" src="https://user-images.githubusercontent.com/41818011/121208408-ff6e0180-c8b4-11eb-93c8-eca18bad8ddc.png"><br><br>
-아래 그림은 3차원 그래프를  \\(\theta_0theta_1\\) 평면에 통과시켰다고 생각하면 된다.<br><br>
+아래 그림은 3차원 그래프를  \\(\theta_0\theta_1\\) 평면에 통과시켰다고 생각하면 된다.<br><br>
 <img width="702" alt="8" src="https://user-images.githubusercontent.com/41818011/121208468-0b59c380-c8b5-11eb-923d-f4c134881e89.png"><br><br>
 즉, 같은 \\(J(\theta_0,\theta_1)\\) 값을 가지는 값끼리 선을 그어놓은 것이다.<br>
 이를 등고선 그래프라고 한다.<br><br>
@@ -132,3 +132,4 @@ y = x 이기때문에 x=1,2,3일때, y=1,2,3이 되고, 이는 실제 훈련셋�
 <br>
 
 다음 포스팅에는 Cost Function의 최솟값을 구하는 알고리즘에 대해서 알아볼 예정이다.<br>
+<hr>
