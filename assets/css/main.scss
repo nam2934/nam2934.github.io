@@ -57,6 +57,25 @@ a:hover { text-decoration: none !important;}
   line-height: 180%;
 }
 
+.page__content p a{
+  display: inline-block;
+  color: slategrey !important;
+}
+
+.page__content p a:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0.1em;
+  background: slategrey;
+  transition: width .5s;
+  margin-top: -0.35em;
+}
+
+.page__content p a:hover::after{
+  width: 100%;
+}
+
 .item-category {
   background-color: #e7e9ea;
 }
@@ -69,7 +88,7 @@ a:hover { text-decoration: none !important;}
   display: inline-block;
 }
 
-.cool_link::after {
+.cool_link::after{
   content: '';
   display: block;
   width: 0;
@@ -79,7 +98,7 @@ a:hover { text-decoration: none !important;}
   margin-top: -0.35em;
 }
 
-.cool_link:hover::after {
+.cool_link:hover::after{
   width: 100%;
 }
 //386b9b
