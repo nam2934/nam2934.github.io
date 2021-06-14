@@ -42,6 +42,30 @@
   url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.woff) format(‘woff’),
   url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.ttf) format(‘truetype’);
 }
+
+.color-change-2x {
+	-webkit-animation: color-change-2x 2s linear alternate both;
+	        animation: color-change-2x 2s linear alternate both;
+}
+
+ @-webkit-keyframes color-change-2x {
+  0% {
+    color: #c9cdc9;
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    color: #c9cdc9;
+  }
+  100% {
+    color: black;
+  }
+}
+
+
 a { text-decoration: none; }
 a:hover { text-decoration: none !important;}  
 
@@ -65,10 +89,10 @@ a:hover { text-decoration: none !important;}
 .page__content p a:after {
   content: '';
   display: block;
-  width: 0;
+  width: 0%;
   height: 0.1em;
   background: slategrey;
-  transition: width .5s;
+  transition: width 1s;
   margin-top: -0.35em;
 }
 
