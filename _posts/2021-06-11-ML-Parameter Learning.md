@@ -42,6 +42,7 @@ Cost Function의 최솟값을 구하는데에 Gradient Descent가 쓰인다.<br>
 * #### 경사하강법 식
 경사하강법 식은 다음과 같다.<br>
 \\[ \theta_j := \theta_j - \alpha \frac{\partial}{\partial\theta_j}J(\theta_0, \theta_1) \\]<br>
+이를 gradient decent의 `update rule`이라고 한다. 
 각 \\(\theta_j\\)를 동시에 업데이트 해줘야 된다.<br>
 특정 \\(\theta\\)값을 먼저 업데이트하면,  다른 \\(\theta\\)이 원래 결과와 달라지게 된다.<br>
 <img width="599" alt="2" src="https://user-images.githubusercontent.com/41818011/121887690-003de200-cd52-11eb-8ec8-aa7439f36796.png"><br>
