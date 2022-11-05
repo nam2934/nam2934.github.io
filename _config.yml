@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "CodeBlack"
+title                    : "BLOG"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "CodeBlack"
-description              : "CodeBlack의 끄적이는 코딩일지"
+name                     : "BLOG"
+description              : "공부 BLOG"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "nam2934/nam2934.github.io"
@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "CodeBlack"
+  name             : "BLOG"
   avatar           : "/assets/images/IMG_1981.jpeg"
-  bio              : "Thank You"
+  bio              : "개인 공부용 BLOG"
   #location         : "Somewhere"
   email            :
   links:
