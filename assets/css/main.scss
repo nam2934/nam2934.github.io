@@ -69,6 +69,10 @@
 a { text-decoration: none; }
 a:hover { text-decoration: none !important;}  
 
+.page__content strong { 
+  color: red;
+}
+
 #page-title{
   font-family: 'EliceDigitalBaeum_Bold';
   font-size: 2em;
@@ -77,7 +81,7 @@ a:hover { text-decoration: none !important;}
 }
 .page__content {
   font-family: 'IBMPlexSansKR-Regular';
-  font-size: 85%;
+  font-size: 65%;
   line-height: 180%;
 }
 
