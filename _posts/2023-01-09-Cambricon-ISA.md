@@ -13,7 +13,6 @@ toc_sticky: true
  
 date: 2023-01-09
 last_modified_at: 2023-01-09
-use_math: true
 ---
 # Cambricon: An Instruction Set Architecture for Neural Networks
 
