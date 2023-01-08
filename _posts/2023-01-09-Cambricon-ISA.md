@@ -3,9 +3,9 @@ title:  "[NPU] Cambricon ISA"
 excerpt: ""
 
 categories:
-  - Architecture
+  - NPU
 tags:
-  - [NPU]
+  - [paper]
 
 breadcrumb: true
 toc: true
