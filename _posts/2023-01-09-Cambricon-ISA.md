@@ -322,7 +322,7 @@ Cambricon은 Vector-Add-Vecvor(VAV) instruction을 vector addition을 위해 제
 
 hardware accelerator 설계 중에 서로 다른 초월함수(e.g., 로그, 삼각함수 및 반삼각함수)와 관련된 instruction은 CORDIC 기법을 사용하여 동일한 functional block(추가, 시프트 및 테이블 룩업 연산 포함)을 효율적으로 재사용할 수 있다. 
 
-또한 논리 연산(e.g., 비교)에 부분적으로 의존하는 활성화 함수(예: max(0,a) 및 |a|)가 있으며, 섹션 III-C에서 관련 Cambricon isntruction(e,g., vector compare instructions)을 제시할 것이다.
+또한 논리 연산(e.g., 비교)에 부분적으로 의존하는 활성화 함수(예: max(0,a) 및 \|a\|)가 있으며, 섹션 III-C에서 관련 Cambricon isntruction(e,g., vector compare instructions)을 제시할 것이다.
 
 게다가, random vector generation은 수많은 NN 테크닉들(e.g., dropout, random sampling)에서의 중요한 operation이다. 그러나 scientific computing을 위해 설계된 선형대수 library에서는 필수가 아니라고 생각한다.(e.g., BLAS는 random vector generation이 없다.)
 
