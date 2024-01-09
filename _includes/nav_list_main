@@ -33,7 +33,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">algorithm 이론정리({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">algorithm 이론 & 구현({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

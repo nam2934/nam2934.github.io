@@ -1,5 +1,5 @@
 ---
-title: "Algorithm 이론정리"
+title: "Algorithm 이론 & 구현"
 layout: archive
 permalink: categories/algorithm
 author_profile: true
