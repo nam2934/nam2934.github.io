@@ -3,9 +3,7 @@ title:  "[NPU] Cambricon ISA"
 excerpt: ""
 
 categories:
-  - NPU
 tags:
-  - [paper]
 
 breadcrumb: true
 toc: true
