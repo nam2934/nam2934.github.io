@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2024-01-19
-last_modified_at: 2024-01-19
+last_modified_at: 2024-01-21
 ---
 
 Spring 공부를 하던 중, Spring은 Tomcat이라는 WAS(Web Application Server) 위에서 동작한다는 사실을 알게 되었다.<br>
@@ -124,8 +124,17 @@ Web Server 파트에서 설명하는 내용과 거의 흡사하지만, static과
 Spring의 경우, 내장되어있는 Tomcat은 application server로(완전한 application server라기에는 부족한 부분이 있음) servlet container를 포함하고 있다.<br>
 여기서 container란 JSP, Servlet을 실행시킬 수 있는 소프트웨어이다. 즉, dynamic content를 제공하기 위한 business logic을 이 부분에서 처리한다.<br>
 
-그러면 business logic을 servlet container에서 처리하는 것은 알겠는데, HTTP request를 받아서 어떻게 web server처럼 동작할까?<br>
+그러면 business logic을 servlet container에서 처리하는 것은 알겠는데, 어떻게 HTTP request를 받아서 web server처럼 동작할까?<br>
 Tomcat에 servlet container는 Catalina라는 이름을 가지고 있고, Coyote라는 connector를 가지고 있다.<br>
 이 connector는 HTTP를 지원하는데, 이를 통해 Catalina는 servlet 및 JSP를 실행하는 기능 외에도 독립형 web server로 동작할 수 있다.<br>
 
 ## 출처
+[What Is a Web Server?](https://www.nginx.com/resources/glossary/web-server/)<br>
+[What Is an Application Server vs. a Web Server?](https://www.nginx.com/resources/glossary/application-server-vs-web-server/)<br>
+[웹 애플리케이션 서버](https://ko.wikipedia.org/wiki/%EC%9B%B9_%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%EC%84%9C%EB%B2%84)<br>
+[Application server](https://en.wikipedia.org/wiki/Application_server)<br>
+[The HTTP Connector](https://tomcat.apache.org/tomcat-9.0-doc/config/http.html#Common_Attributes)<br>
+[Web server vs. application server](https://www.ibm.com/kr-ko/topics/web-server-application-server)<br>
+[[Web] Web Server와 WAS의 차이와 웹 서비스 구조](https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html)<br>
+[Nginx와 Gunicorn 둘 중 하나만 써도 될까?](https://velog.io/@jimin_lee/Nginx%EC%99%80-Gunicorn-%EB%91%98-%EC%A4%91-%ED%95%98%EB%82%98%EB%A7%8C-%EC%8D%A8%EB%8F%84-%EB%90%A0%EA%B9%8C)<br>
+
