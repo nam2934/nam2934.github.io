@@ -15,7 +15,7 @@
         <div>
             <span class="icon_size"><i class="fas fa-xs fa-calendar-alt" aria-hidden="true"> </i>{{ post.date | date: " %Y.%m.%d" }}</span><br>
             <span class="post_title_size">
-              <a class="cool_link" href="{{ post.url }}">{{post.title}}</a>
+              <a class="cool_link" href="{{ post.url }}"><span class="new_link">{{post.title}}</span></a>
             </span>
             <small> 
               {% if site.category_archive.type and post.categories[0] and site.tag_archive.type and post.tags[0] %}
