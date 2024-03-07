@@ -75,7 +75,7 @@ a:hover { text-decoration: none !important;}
 
 #page-title{
   font-family: 'EliceDigitalBaeum_Bold';
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.3em;
   text-align: center;
 }
@@ -84,7 +84,7 @@ nav.toc{
 }
 .page__content {
   font-family: 'IBMPlexSansKR-Regular';
-  font-size: 65%;
+  font-size: 75%;
   line-height: 180%;
 }
 
@@ -164,7 +164,7 @@ $link-color: black !default;
 }
 
 .post_title_size{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
