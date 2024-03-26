@@ -2,7 +2,16 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 @charset "utf-8";
+@font-face {
+  font-family: 'GowunBatang-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'EliceDigitalBaeum_Bold';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
@@ -83,8 +92,8 @@ nav.toc{
   font-size: 1.2em;
 }
 .page__content {
-  font-family: 'IBMPlexSansKR-Regular';
-  font-size: 75%;
+  font-family: 'GowunBatang-Regular';
+  font-size: 70%;
   line-height: 180%;
 }
 
